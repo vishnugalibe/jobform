@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Information Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <h1 id="title">GaVi Enterprises - Employment Form </h1>
+    <p id="description">Career life starts from GaVi, Apply below</p>
+
+    
+    <form id="survey-form">
+
+      <label for="name" id="name-label">Full Name  <input class="input" type="text" id="name" placeholder="Enter Full Name" required></label>
+
+      <label for="email" id="email-label">Email Address <input class="input"  type="email" id="email" placeholder="Enter Email Aadress" required minlength="8" maxlength="30"></label>
+
+      <label for="number" id="number-label">Mobile Number  <input class="input"  type="number" id="number" placeholder="Enter Mobile Number" min="18" max="999999999"></label>
+
+      <label for="dropdown-label" id="dropdown-label">How did you know our Company?
+        <select class="input"  id="dropdown">
+          <option class="options"> Select Options</option>
+          <option class="options">LinkedIn</option>
+          <option class="options">Social Media / News</option>
+          <option class="options">Institutes</option>
+        </select>
+      </label>
+
+      <label for="radio-label" id="radio-label">Select Gender 
+       <div id="radio-container">
+        <div id="male-container"><input type="radio" id="male" name="gender" value="male"><label for="male" id="male-label" checked> Male</label></div>
+        <div id="female-container" ><input type="radio" id="female" name="gender" value="female"><label for="female" id="female-label"> Female</label></div>
+      </div></label>
+
+      <label id="checkbox-label" for="checkbox">Apply Positions  
+        <div id="ceo-container"><input type="checkbox" id="ceo" name="ceo" value="ceo"><label for="ceo" id="ceo-label"> CEO</label></div>
+        <div id="president-container"><input type="checkbox" id="president" name="president" value="president"><label for="president" id="president-label"> President</label></div> 
+        <div id="director-container"><input type="checkbox" id="director" name="director" value="director"><label for="director" id="director-label"> Director</label></div> 
+        <div id="manager-container"><input type="checkbox" id="manager" name="manager" value="manager"><label for="manager" id="manager-label"> Manager</label></div>
+        <div id="developer-container"><input type="checkbox" id="developer" name="developer" value="developer"><label for="developer" id="developer-label"> Developer</label>
+      </div></label>
+
+      <label id="textarea-label" for="textarea"> Profile Summary  
+        <textarea id="textarea" type="text" placeholder="Explain yourself in detail" rows="3" cols="30"></textarea>
+      </label>
+
+      <button id="submit" type="submit" value="submit">Submit</button>
+
+    </form>
+
+  </body>
+
+</html>

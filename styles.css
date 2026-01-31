@@ -1,0 +1,137 @@
+body {
+  background-image: url("teamwork.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* title editing */
+#title {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+
+
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  font-family: cursive;
+  text-align: center;
+  font-size: 15px;
+  
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#survey-form {
+  border: 2px solid black;
+  height: 730px;
+  width:600px;
+  max-width: 800px;
+  min-width: 500px;
+  text-align: center;
+  background-color: rgba(00,00,00,0.8);
+
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#name-label, #email-label, #number-label,  #dropdown-label, #radio-label, #textarea-label {
+  display: block;
+  text-align: left;
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+
+  margin-left :20px;
+  margin-right: auto;
+  margin-top:0px;
+  margin-bottom: 10px;
+}
+
+
+
+#name, #email, #number, #radio, #checkbox, #textarea, #dropdown,  #radio-container, #textarea, #submit {
+  display: block;
+  border-radius: 8px;
+  height: 35px;
+  width: 550px;
+  text-align: left;
+
+  padding-left: 10px;
+}
+
+#male-container, #female-container {
+  text-align: left;
+
+  margin-top: 0px;
+  margin-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#checkbox-label {
+  display: block;
+  text-align: left;
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#areatext-label {
+  margin-top: 20px;
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
+#textarea {
+  height: 100px;
+  width: 550px;
+  margin-top:3px;
+}
+
+#submit {
+  margin-left: 20px;
+  width: 550px;
+  background-color: green;
+  color: black;
+  text-align: center;
+}
+
+.checkbox {
+  display: block;
+}
+
+#radio-container {
+  margin-top: 10px;
+}
+
+#checkbox-container {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#submit:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
